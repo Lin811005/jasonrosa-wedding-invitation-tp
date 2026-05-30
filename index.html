@@ -12,10 +12,22 @@
 
 <body>
 
-    <!-- 第一個區塊 -->
-    <div class="mobile-only-box smoove" data-move-y="100px">
-        <img src="images/block_1.jpg" alt="手機版廣告圖 1">
-    </div>
+<!-- 💡 全新加入：開場全覆蓋 Popup 區塊（圖片更換為影片） -->
+<div class="welcome-popup">
+    <!-- 
+      autoplay: 自動播放
+      muted: 靜音（手機版規定必須靜音才能自動播放）
+      playsinline: 在網頁內直接播放（防止 iPhone 點開全螢幕自帶播放器）
+    -->
+    <video src="images/magnific_video-upscale_EqnXPYpuuO.mp4" autoplay muted playsinline></video>
+</div>
+
+<!-- 第一個區塊 -->
+<div class="mobile-only-box smoove" data-move-y="100px">
+    <img src="images/block_1.jpg" alt="手機版廣告圖 1">
+</div>
+
+
 
     <!-- 第二個區塊 -->
     <div class="mobile-only-box">
@@ -24,7 +36,7 @@
         
         <!-- 2. 中間層：只有這張圖套用滾動動畫（由下往上淡入） -->
         <div class="overlay-img kv-fade-in">
-            <img src="images/block_2_kv.png" alt="疊在上面的圖">
+            <img src="images/block_2_picture.png" alt="疊在上面的圖">
         </div>
 
         <!-- 3. 最頂層：全新疊加的第三張圖（負責單純的無限上下漂浮） -->
@@ -38,10 +50,10 @@
         <!-- 1. 最底層：墊底的背景圖（固定不動） -->
         <img src="images/block_3_bg.jpg" alt="手機版廣告圖 2">
         
-        <!-- 2. 中間層：只有這張圖套用滾動動畫（由下往上淡入） -->
-        <div class="overlay-img kv-fade-in">
-            <img src="images/block_3_text.png" alt="疊在上面的圖">
-        </div>
+    <!-- 2. 中間層：文字圖群組（依序淡入維持不變） -->
+    <div class="overlay-img kv-fade-in"><img src="images/block_3_text_1.png" alt="疊在上面的圖"></div>
+    <div class="overlay-img kv-fade-in"><img src="images/block_3_text_2.png" alt="疊在上面的圖"></div>
+    <div class="overlay-img kv-fade-in"><img src="images/block_3_text_3.png" alt="疊在上面的圖"></div>
 
         <!-- 3. 最頂層：全新疊加的第三張圖（負責單純的無限上下漂浮） -->
         <div class="overlay-floating">
@@ -68,6 +80,34 @@
         <img src="images/block_4_decorate_2.png" alt="最上層微調旋轉圖 2"> 
     </div>
 </div>
+
+    <!-- 第五個區塊 -->
+    <div class="mobile-only-box">
+        <!-- 1. 最底層：墊底的背景圖（固定不動） -->
+        <img src="images/block_5_bg.gif" alt="手機版廣告圖 2">
+        
+        <!-- 2. 中間層：只有這張圖套用滾動動畫（由下往上淡入） -->
+        <div class="overlay-img kv-fade-in">
+            <img src="images/block_5_picture.png" alt="疊在上面的圖">
+        </div>
+
+        <!-- 3. 最頂層：全新疊加的第三張圖（負責單純的無限上下漂浮） -->
+        <div class="overlay-img kv-fade-in">
+            <img src="images/block_5_decorate.png" alt="最上層漂浮圖"> 
+        </div>
+    </div>
+
+    <!-- 第六個區塊 -->
+    <div class="mobile-only-box">
+        <!-- 1. 最底層：墊底的背景圖（固定不動） -->
+        <img src="images/block_6_bg.jpg" alt="手機版廣告圖 2">
+        
+    <!-- 2. 中間層：文字圖群組（依序淡入維持不變） -->
+    <div class="overlay-img kv-fade-in"><img src="images/block_6_decorate_1.png" alt="疊在上面的圖"></div>
+    <div class="overlay-img kv-fade-in"><img src="images/block_6_decorate_2.png" alt="疊在上面的圖"></div>
+    <div class="overlay-img kv-fade-in"><img src="images/block_6_decorate_3.png" alt="疊在上面的圖"></div>
+
+    </div>    
 
 
 
