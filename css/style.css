@@ -326,7 +326,7 @@ body {
     align-items: center;    
     
     /* 💡 精準鎖定總時間為 5 秒 */
-    animation: welcomeFadeOut 6s ease-in-out forwards;
+    animation: welcomeFadeOut 7s ease-in-out forwards;
 }
 
 /* 影片自適應手機螢幕尺寸 */
